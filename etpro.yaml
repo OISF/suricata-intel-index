@@ -1,0 +1,3 @@
+name: etpro
+description: Emerging Threats Pro Ruleset
+url: https://rules.emergingthreatspro.com/%(code)s/suricata%(version)s/etpro.rules.tar.gz
