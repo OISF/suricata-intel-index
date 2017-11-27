@@ -2,4 +2,4 @@ name: etopen
 vendor: Proofpoint
 license: MIT
 description: Emerging Threats Open Ruleset
-url: https://rules.emergingthreats.net/open/suricata%(version)s/emerging.rules.tar.gz
+url: https://rules.emergingthreats.net/open/suricata%(__version__)s/emerging.rules.tar.gz
