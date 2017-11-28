@@ -3,6 +3,17 @@ version: 1
 
 sources:
 
+  # Proofpoint/Emerging Threats Pro ruleset.
+  et/pro:
+    description: Emerging Threats Pro Ruleset
+    vendor: Proofpoint
+    license: Commercial
+    url: https://rules.emergingthreatspro.com/%(code)s/suricata%(__version__)s/etpro.rules.tar.gz
+    parameters:
+      code:
+        prompt: Emerging Threats Pro access code
+        secret: true
+
   # The OISF Traffic ID ruleset.
   oisf/trafficid:
     vendor: OISF
@@ -19,20 +30,9 @@ sources:
     description: Emerging Threats Open Ruleset
     url: https://rules.emergingthreats.net/open/suricata%(__version__)s/emerging.rules.tar.gz
 
-  # Proofpoint/Emerging Threats Pro ruleset.
-  et/pro:
-    description: Emerging Threats Pro Ruleset
-    vendor: Proofpoint
-    license: Commercial
-    url: https://rules.emergingthreatspro.com/%(code)s/suricata%(__version__)s/etpro.rules.tar.gz
-    parameters:
-      code:
-        prompt: Emerging Threats Pro access code
-
   # SSBL FP blacklist ruleset.
   sslbl/ssl-fp-blacklist:
     description: Abuse.ch SSL Blacklist
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
-
