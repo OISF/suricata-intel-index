@@ -8,7 +8,7 @@ sources:
     description: Emerging Threats Pro Ruleset
     vendor: Proofpoint
     license: Commercial
-    url: https://rules.emergingthreatspro.com/%(code)s/suricata%(__version__)s/etpro.rules.tar.gz
+    url: https://rules.emergingthreatspro.com/%(code)s/suricata-%(__version__)s/etpro.rules.tar.gz
     parameters:
       code:
         prompt: Emerging Threats Pro access code
@@ -28,7 +28,7 @@ sources:
     vendor: Proofpoint
     license: MIT
     description: Emerging Threats Open Ruleset
-    url: https://rules.emergingthreats.net/open/suricata%(__version__)s/emerging.rules.tar.gz
+    url: https://rules.emergingthreats.net/open/suricata-%(__version__)s/emerging.rules.tar.gz
 
   # SSBL FP blacklist ruleset.
   sslbl/ssl-fp-blacklist:
