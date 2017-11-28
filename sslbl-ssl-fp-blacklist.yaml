@@ -1,5 +1,0 @@
-name: sslbl-ssl-fp-blacklist
-description: Abuse.ch SSL Blacklist
-vendor: Abuse.ch
-license: Non-Commercial
-url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules

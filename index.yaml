@@ -1,0 +1,38 @@
+# This is a version 1 formatted index.
+version: 1
+
+sources:
+
+  # The OISF Traffic ID ruleset.
+  - name: oisf/trafficid
+    vendor: OISF
+    description: Suricata Traffic ID ruleset
+    license: MIT
+    url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
+    support-url: https://redmine.openinfosecfoundation.org/
+    min-version: 4.0.0
+
+  # Proofpoint/Emerging Threats Open ruleset.
+  - name: et/open
+    vendor: Proofpoint
+    license: MIT
+    description: Emerging Threats Open Ruleset
+    url: https://rules.emergingthreats.net/open/suricata%(__version__)s/emerging.rules.tar.gz
+
+  # Proofpoint/Emerging Threats Pro ruleset.
+  - name: et/pro
+    description: Emerging Threats Pro Ruleset
+    vendor: Proofpoint
+    license: Commercial
+    url: https://rules.emergingthreatspro.com/%(code)s/suricata%(__version__)s/etpro.rules.tar.gz
+    parameters:
+      code:
+        prompt: Emerging Threats Pro access code
+
+  # SSBL FP blacklist ruleset.
+  - name: sslbl/ssl-fp-blacklist
+    description: Abuse.ch SSL Blacklist
+    vendor: Abuse.ch
+    license: Non-Commercial
+    url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
+

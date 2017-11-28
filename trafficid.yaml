@@ -1,5 +1,0 @@
-name: trafficid
-vendor: OISF
-description: Suricata Traffic ID ruleset
-license: MIT
-url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
