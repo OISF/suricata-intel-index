@@ -4,7 +4,7 @@ version: 1
 sources:
 
   # The OISF Traffic ID ruleset.
-  - name: oisf/trafficid
+  oisf/trafficid:
     vendor: OISF
     description: Suricata Traffic ID ruleset
     license: MIT
@@ -13,14 +13,14 @@ sources:
     min-version: 4.0.0
 
   # Proofpoint/Emerging Threats Open ruleset.
-  - name: et/open
+  et/open:
     vendor: Proofpoint
     license: MIT
     description: Emerging Threats Open Ruleset
     url: https://rules.emergingthreats.net/open/suricata%(__version__)s/emerging.rules.tar.gz
 
   # Proofpoint/Emerging Threats Pro ruleset.
-  - name: et/pro
+  et/pro:
     description: Emerging Threats Pro Ruleset
     vendor: Proofpoint
     license: Commercial
@@ -30,7 +30,7 @@ sources:
         prompt: Emerging Threats Pro access code
 
   # SSBL FP blacklist ruleset.
-  - name: sslbl/ssl-fp-blacklist
+  sslbl/ssl-fp-blacklist:
     description: Abuse.ch SSL Blacklist
     vendor: Abuse.ch
     license: Non-Commercial
