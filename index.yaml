@@ -3,16 +3,31 @@ version: 1
 
 sources:
 
+  # Proofpoint/Emerging Threats Open ruleset.
+  et/open:
+    vendor: Proofpoint
+    license: MIT
+    description: Emerging Threats Open Ruleset
+    url: https://rules.emergingthreats.net/open/suricata-%(__version__)s/emerging.rules.tar.gz
+    tags:
+      - malware
+      - gateway
+      - cnc
+
   # Proofpoint/Emerging Threats Pro ruleset.
   et/pro:
     description: Emerging Threats Pro Ruleset
     vendor: Proofpoint
     license: Commercial
-    url: https://rules.emergingthreatspro.com/%(code)s/suricata-%(__version__)s/etpro.rules.tar.gz
+    url: https://rules.emergingthreatspro.com/%(secret-code)s/suricata-%(__version__)s/etpro.rules.tar.gz
+    subscribe-url: https://www.proofpoint.com/us/threat-insight/et-pro-ruleset
+    tags:
+      - malware
+      - gateway
+      - cnc
     parameters:
-      code:
+      secret-code:
         prompt: Emerging Threats Pro access code
-        secret: true
 
   # The OISF Traffic ID ruleset.
   oisf/trafficid:
@@ -22,13 +37,8 @@ sources:
     url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
     support-url: https://redmine.openinfosecfoundation.org/
     min-version: 4.0.0
-
-  # Proofpoint/Emerging Threats Open ruleset.
-  et/open:
-    vendor: Proofpoint
-    license: MIT
-    description: Emerging Threats Open Ruleset
-    url: https://rules.emergingthreats.net/open/suricata-%(__version__)s/emerging.rules.tar.gz
+    tags:
+      - labelling
 
   # SSBL FP blacklist ruleset.
   sslbl/ssl-fp-blacklist:
@@ -36,3 +46,6 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
+    tags:
+      - ssl
+      - blacklist
