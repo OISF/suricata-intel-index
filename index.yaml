@@ -7,7 +7,7 @@ sources:
   et/open:
     vendor: Proofpoint
     license: MIT
-    description: Emerging Threats Open Ruleset
+    summary: Emerging Threats Open Ruleset
     url: https://rules.emergingthreats.net/open/suricata-%(__version__)s/emerging.rules.tar.gz
     tags:
       - malware
@@ -16,7 +16,9 @@ sources:
 
   # Proofpoint/Emerging Threats Pro ruleset.
   et/pro:
-    description: Emerging Threats Pro Ruleset
+    summary: Emerging Threats Pro Ruleset
+    description: |
+      Proofpoint ET Pro is a timely and accurate rule set for detecting and blocking advanced threats
     vendor: Proofpoint
     license: Commercial
     url: https://rules.emergingthreatspro.com/%(secret-code)s/suricata-%(__version__)s/etpro.rules.tar.gz
@@ -32,7 +34,7 @@ sources:
   # The OISF Traffic ID ruleset.
   oisf/trafficid:
     vendor: OISF
-    description: Suricata Traffic ID ruleset
+    summary: Suricata Traffic ID ruleset
     license: MIT
     url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
     support-url: https://redmine.openinfosecfoundation.org/
@@ -42,7 +44,7 @@ sources:
 
   # SSBL FP blacklist ruleset.
   sslbl/ssl-fp-blacklist:
-    description: Abuse.ch SSL Blacklist
+    summary: Abuse.ch SSL Blacklist
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
