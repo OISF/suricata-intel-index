@@ -22,6 +22,8 @@ sources:
     parameters:
       secret-code:
         prompt: Emerging Threats Pro access code
+    replaces:
+      - et/open
 
   # The OISF Traffic ID ruleset.
   oisf/trafficid:
