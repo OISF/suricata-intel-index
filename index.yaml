@@ -9,10 +9,6 @@ sources:
     license: MIT
     summary: Emerging Threats Open Ruleset
     url: https://rules.emergingthreats.net/open/suricata-%(__version__)s/emerging.rules.tar.gz
-    tags:
-      - malware
-      - gateway
-      - cnc
 
   # Proofpoint/Emerging Threats Pro ruleset.
   et/pro:
@@ -23,10 +19,6 @@ sources:
     license: Commercial
     url: https://rules.emergingthreatspro.com/%(secret-code)s/suricata-%(__version__)s/etpro.rules.tar.gz
     subscribe-url: https://www.proofpoint.com/us/threat-insight/et-pro-ruleset
-    tags:
-      - malware
-      - gateway
-      - cnc
     parameters:
       secret-code:
         prompt: Emerging Threats Pro access code
@@ -39,8 +31,6 @@ sources:
     url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
     support-url: https://redmine.openinfosecfoundation.org/
     min-version: 4.0.0
-    tags:
-      - labelling
 
   ptresearch/attackdetection:
     vendor: Positive Technologies
@@ -57,6 +47,3 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
-    tags:
-      - ssl
-      - blacklist
