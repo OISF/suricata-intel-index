@@ -43,6 +43,32 @@ sources:
     license: Custom
     license-url: https://raw.githubusercontent.com/ptresearch/AttackDetection/master/LICENSE
 
+  # Secureworks suricata-malware ruleset.
+  scwx/malware:
+    vendor: Secureworks
+    summary: Secureworks suricata-malware ruleset.
+    description: |
+      High-fidelity, high-priority ruleset composed mainly of malware-related countermeasures and curated by the Secureworks Counter Threat Unit research team.
+    url: https://ws.secureworks.com/ti/ruleset/%(secret-code)s/Suricata_suricata-malware_latest.tgz
+    parameters:
+      secret-code:
+        prompt: Secureworks Threat Intelligence Authentication Token
+    license: Commercial
+    min-version: 2.0.9
+
+  # Secureworks suricata-security ruleset.
+  scwx/security:
+    vendor: Secureworks
+    summary: Secureworks suricata-security ruleset.
+    description: |
+      Broad ruleset composed of malware rules and other security-related countermeasures, and curated by the Secureworks Counter Threat Unit research team.
+    url: https://ws.secureworks.com/ti/ruleset/%(secret-code)s/Suricata_suricata-security_latest.tgz
+    parameters:
+      secret-code:
+        prompt: Secureworks Threat Intelligence Authentication Token
+    license: Commercial
+    min-version: 2.0.9
+
   # SSBL FP blacklist ruleset.
   sslbl/ssl-fp-blacklist:
     summary: Abuse.ch SSL Blacklist
