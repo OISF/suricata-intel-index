@@ -54,6 +54,7 @@ sources:
       secret-code:
         prompt: Secureworks Threat Intelligence Authentication Token
     license: Commercial
+    subscribe-url: https://www.secureworks.com/contact/ (Please reference CTU Countermeasures)
     min-version: 2.0.9
 
   # Secureworks suricata-security ruleset.
@@ -67,6 +68,7 @@ sources:
       secret-code:
         prompt: Secureworks Threat Intelligence Authentication Token
     license: Commercial
+    subscribe-url: https://www.secureworks.com/contact/ (Please reference CTU Countermeasures)
     min-version: 2.0.9
 
   # SSBL FP blacklist ruleset.
