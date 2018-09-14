@@ -77,3 +77,11 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
+
+  # Etnetera a.s. blacklist ruleset
+  etnetera/aggressive:
+    vendor: Etnetera a.s.
+    license: MIT
+    summary: Etnetera aggressive IP blacklist
+    url: https://security.etnetera.cz/feeds/etn_aggressive.rules
+    min-version: 4.0.0
