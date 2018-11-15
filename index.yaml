@@ -85,3 +85,11 @@ sources:
     summary: Etnetera aggressive IP blacklist
     url: https://security.etnetera.cz/feeds/etn_aggressive.rules
     min-version: 4.0.0
+    
+  # tgreen's hunting rules
+  tgreen/hunting:
+    vendor: tgreen
+    license: GPLv3
+    summary: Heuristic ruleset for hunting. Focus on anomaly detection and showcasing latest engine features, not performance.
+    url: https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules
+    min-version: 4.1.0    
