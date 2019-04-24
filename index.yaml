@@ -30,7 +30,7 @@ sources:
     vendor: OISF
     summary: Suricata Traffic ID ruleset
     license: MIT
-    url: https://raw.githubusercontent.com/jasonish/suricata-trafficid/master/rules/traffic-id.rules
+    url: https://openinfosecfoundation.org/rules/trafficid/trafficid.rules
     support-url: https://redmine.openinfosecfoundation.org/
     min-version: 4.0.0
 
