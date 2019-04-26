@@ -75,7 +75,7 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
-  
+
   sslbl/ja3-fingerprints:
     summary: Abuse.ch Suricata JA3 Fingerprint Ruleset
     description: |
@@ -83,15 +83,15 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.rules
-    min-version: 4.1.0    
-    
+    min-version: 4.1.0
+
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
     vendor: Etnetera a.s.
     license: MIT
     url: https://security.etnetera.cz/feeds/etn_aggressive.rules
     min-version: 4.0.0
-    
+
   tgreen/hunting:
     summary: Threat hunting rules
     description: |
@@ -99,4 +99,4 @@ sources:
     vendor: tgreen
     license: GPLv3
     url: https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules
-    min-version: 4.1.0    
+    min-version: 4.1.0
