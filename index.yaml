@@ -100,3 +100,9 @@ sources:
     license: GPLv3
     url: https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules
     min-version: 4.1.0
+
+versions:
+
+  suricata:
+    recommended: 4.1.4
+    "4.1": 4.1.4
