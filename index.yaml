@@ -24,6 +24,7 @@ sources:
         prompt: Emerging Threats Pro access code
     replaces:
       - et/open
+    no-checksum: true
 
   oisf/trafficid:
     summary: Suricata Traffic ID ruleset
@@ -32,6 +33,7 @@ sources:
     url: https://openinfosecfoundation.org/rules/trafficid/trafficid.rules
     support-url: https://redmine.openinfosecfoundation.org/
     min-version: 4.0.0
+    no-checksum: true
 
   ptresearch/attackdetection:
     summary: Positive Technologies Attack Detection Team ruleset
@@ -75,6 +77,7 @@ sources:
     vendor: Abuse.ch
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
+    no-checksum: true
 
   sslbl/ja3-fingerprints:
     summary: Abuse.ch Suricata JA3 Fingerprint Ruleset
@@ -84,6 +87,7 @@ sources:
     license: Non-Commercial
     url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.rules
     min-version: 4.1.0
+    no-checksum: true
 
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
@@ -91,6 +95,7 @@ sources:
     license: MIT
     url: https://security.etnetera.cz/feeds/etn_aggressive.rules
     min-version: 4.0.0
+    no-checksum: true
 
   tgreen/hunting:
     summary: Threat hunting rules
@@ -100,3 +105,4 @@ sources:
     license: GPLv3
     url: https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules
     min-version: 4.1.0
+    no-checksum: true
