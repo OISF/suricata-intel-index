@@ -109,5 +109,5 @@ sources:
 
 versions:
   suricata:
-    recommended: 4.1.4
-    "4.1": 4.1.4
+    recommended: 4.1.5
+    "4.1": 4.1.5
