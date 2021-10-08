@@ -128,7 +128,8 @@ sources:
     license: MIT
     url: https://malsilo.gitlab.io/feeds/dumps/malsilo.rules.tar.gz
     min-version: 4.1.0
-    checksum: false
+    homepage: https://raw-data.gitlab.io/post/malsilo_2.0/
+    checksum: true
 
 versions:
   suricata:
