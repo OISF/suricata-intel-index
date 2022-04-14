@@ -43,6 +43,7 @@ sources:
     license: Custom
     license-url: https://raw.githubusercontent.com/ptresearch/AttackDetection/master/LICENSE
     url: https://raw.githubusercontent.com/ptresearch/AttackDetection/master/pt.rules.tar.gz
+    obsolete: no longer exists
 
   scwx/enhanced:
     summary: Secureworks suricata-enhanced ruleset
