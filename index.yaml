@@ -132,6 +132,17 @@ sources:
     homepage: https://raw-data.gitlab.io/post/malsilo_2.1/
     checksum: true
 
+  stamus/lateral:
+    summary: Lateral movement rules
+    description: |
+      Suricata ruleset specifically focused on detecting lateral
+      movement in Microsoft Windows environments by Stamus Networks
+    vendor: Stamus Networks
+    min-version: 6.0.6
+    license: GPL-3.0-only
+    support-url: https://discord.com/channels/911231224448712714/911238451842666546
+    url: https://ti.stamus-networks.io/open/stamus-lateral-rules.tar.gz
+
 versions:
   suricata:
     recommended: 6.0.8
