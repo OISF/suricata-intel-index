@@ -143,6 +143,18 @@ sources:
     support-url: https://discord.com/channels/911231224448712714/911238451842666546
     url: https://ti.stamus-networks.io/open/stamus-lateral-rules.tar.gz
 
+  jpgpi250/DoH:
+    summary: DNS over HTTPS domains
+    description: |
+      Reject DNS queries for known DoH domains, using port 53
+      Assuming the DoH client(s) initially use regular DNS queries, to obtain the DoH server IP address.
+    vendor: jpgpi250
+    license: Non-Commercial
+    support-url: https://github.com/jpgpi250/piholemanual/issues
+    url: https://raw.githubusercontent.com/jpgpi250/piholemanual/master/DOH/DOH.rules
+    min-version: 6.0.4
+    checksum: true
+
 versions:
   suricata:
     recommended: 6.0.9
