@@ -143,7 +143,7 @@ sources:
     support-url: https://discord.com/channels/911231224448712714/911238451842666546
     url: https://ti.stamus-networks.io/open/stamus-lateral-rules.tar.gz
 
-  jpgpi250/DoH:
+  jpgpi250/doh:
     summary: DNS over HTTPS domains
     description: |
       Reject DNS queries for known DoH domains, using port 53
