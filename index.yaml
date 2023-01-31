@@ -145,5 +145,5 @@ sources:
 
 versions:
   suricata:
-    recommended: 6.0.9
-    "6.0": 6.0.9
+    recommended: 6.0.10
+    "6.0": 6.0.10
