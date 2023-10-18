@@ -143,6 +143,90 @@ sources:
     support-url: https://discord.com/channels/911231224448712714/911238451842666546
     url: https://ti.stamus-networks.io/open/stamus-lateral-rules.tar.gz
 
+  stamus/nrd-30-open:
+    summary: Newly Registered Domains Open only - 30 day list, complete
+    description: |
+      Newly Registered Domains list (last 30 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-nrd-30.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
+  stamus/nrd-14-open:
+    summary: Newly Registered Domains Open only - 14 day list, complete
+    description: |
+      Newly Registered Domains list (last 14 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-nrd-14.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
+  stamus/nrd-entropy-30-open:
+    summary: Newly Registered Domains Open only - 30 day list, high entropy
+    description: |
+      Suspicious Newly Registered Domains list with high entropy (last 30 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-entropy-30.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
+  stamus/nrd-entropy-14-open:
+    summary: Newly Registered Domains Open only - 14 day list, high entropy
+    description: |
+      Suspicious Newly Registered Domains list with high entropy (last 14 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-entropy-14.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
+  stamus/nrd-phishing-30-open:
+    summary: Newly Registered Domains Open only - 30 day list, phishing
+    description: |
+      Suspicious Newly Registered Domains Phishing list (last 30 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-phishing-30.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
+  stamus/nrd-phishing-14-open:
+    summary: Newly Registered Domains Open only - 14 day list, phishing
+    description: |
+      Suspicious Newly Registered Domains Phishing list (last 14 days) to match on DNS, TLS and HTTP communication.
+      Produced by Stamus Labs research team.
+    vendor: Stamus Networks
+    license: Commercial
+    url: https://ti.stamus-networks.io/%(secret-code)s/sti-domains-phishing-14.tar.gz
+    parameters:
+      secret-code:
+        prompt: Stamus Networks License code
+    subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
+    min-version: 6.0.0
+
 versions:
   suricata:
     recommended: 7.0.1
