@@ -227,6 +227,21 @@ sources:
     subscribe-url: https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed
     min-version: 6.0.0
 
+  pawpatrules:
+    summary: PAW Patrules is a collection of rules for IDPS / NSM Suricata engine
+    description: |
+      PAW Patrules ruleset permit to detect many events on
+      network. Suspicious flow, malicious tool, unsuported and
+      vulnerable system, known threat actors with various IOCs,
+      lateral movement, bad practice, shadow IT... Rules are
+      frequently updated.
+    homepage: https://pawpatrules.fr/
+    vendor: pawpatrules
+    min-version: 6.0.0
+    url: https://rules.pawpatrules.fr/suricata/paw-patrules.tar.gz
+    checksum: false
+    license: CC-BY-SA-4.0
+
 versions:
   suricata:
     recommended: 7.0.3
