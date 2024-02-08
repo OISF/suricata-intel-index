@@ -229,6 +229,6 @@ sources:
 
 versions:
   suricata:
-    recommended: 7.0.2
+    recommended: 7.0.3
     "6.0": 6.0.16
-    "7.0": 7.0.2
+    "7.0": 7.0.3
