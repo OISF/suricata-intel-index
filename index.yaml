@@ -245,5 +245,5 @@ sources:
 versions:
   suricata:
     recommended: 7.0.4
-    "6.0": 6.0.17
+    "6.0": 6.0.18
     "7.0": 7.0.4
