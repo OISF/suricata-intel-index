@@ -117,7 +117,7 @@ sources:
       Heuristic ruleset for hunting. Focus on anomaly detection and showcasing latest engine features, not performance.
     vendor: tgreen
     license: GPLv3
-    url: https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules
+    url: https://github.com/travisbgreen/hunting-rules/raw/master/hunting.rules.tar.gz
     min-version: 4.1.0
     checksum: false
 
