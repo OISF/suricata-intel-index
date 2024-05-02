@@ -237,7 +237,7 @@ sources:
       frequently updated.
     homepage: https://pawpatrules.fr/
     vendor: pawpatrules
-    min-version: 6.0.0
+    min-version: 7.0.3
     url: https://rules.pawpatrules.fr/suricata/paw-patrules.tar.gz
     checksum: false
     license: CC-BY-SA-4.0
