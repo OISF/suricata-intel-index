@@ -99,7 +99,7 @@ sources:
       If you are running Suricata, you can use the SSLBL's Suricata JA3 FingerprintRuleset to detect and/or block malicious SSL connections in your network based on the JA3 fingerprint. Please note that your need Suricata 4.1.0 or newer in order to use the JA3 fingerprint ruleset.
     vendor: Abuse.ch
     license: CC0-1.0
-    url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.rules
+    url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.tar.gz
     min-version: 4.1.0
     checksum: false
 
