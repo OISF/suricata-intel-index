@@ -128,6 +128,17 @@ sources:
     checksum: false
     deprecated: Renamed to abuse.ch/sslbl-ja3
 
+  abuse.ch/sslbl-c2:
+    summary: Abuse.ch Suricata Botnet C2 IP Ruleset
+    description: |
+      This ruleset contains all botnet Command&Control servers (C&Cs)
+      identified by SSLBL to be associated with a blacklisted SSL
+      certificate.
+    vendor: Abuse.ch
+    license: CC0-1.0
+    url: https://sslbl.abuse.ch/blacklist/sslipblacklist.tar.gz
+    checksum: false
+
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
     vendor: Etnetera a.s.
