@@ -90,7 +90,7 @@ sources:
       The SSL Blacklist (SSLBL) is a project of abuse.ch with the goal of detecting malicious SSL connections, by identifying and blacklisting SSL certificates used by botnet C&C servers. In addition, SSLBL identifies JA3 fingerprints that helps you to detect & block malware botnet C&C communication on the TCP layer.
     vendor: Abuse.ch
     license: CC0-1.0
-    url: https://sslbl.abuse.ch/blacklist/sslblacklist.rules
+    url: https://sslbl.abuse.ch/blacklist/sslblacklist_tls_cert.tar.gz
     checksum: false
 
   sslbl/ja3-fingerprints:
