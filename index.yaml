@@ -84,6 +84,17 @@ sources:
     subscribe-url: https://www.secureworks.com/contact/ (Please reference CTU Countermeasures)
     min-version: 3.0.0
 
+  abuse.ch/sslbl-blacklist:
+    summary: Abuse.ch SSL Blacklist
+    description: |
+      The SSL Blacklist (SSLBL) is a project of abuse.ch with the goal of detecting malicious SSL connections, by identifying and blacklisting SSL certificates used by botnet C&C servers. In addition, SSLBL identifies JA3 fingerprints that helps you to detect & block malware botnet C&C communication on the TCP layer.
+    vendor: Abuse.ch
+    license: CC0-1.0
+    url: https://sslbl.abuse.ch/blacklist/sslblacklist_tls_cert.tar.gz
+    checksum: false
+    replaces: sslbl/ssl-fp-blacklist
+
+  # Deprecated in favor of abuse.ch/sslbl-blacklist.
   sslbl/ssl-fp-blacklist:
     summary: Abuse.ch SSL Blacklist
     description: |
@@ -92,7 +103,20 @@ sources:
     license: CC0-1.0
     url: https://sslbl.abuse.ch/blacklist/sslblacklist_tls_cert.tar.gz
     checksum: false
+    deprecated: Renamed to abuse.ch/sslbl-blacklist
 
+  abuse.ch/sslbl-ja3:
+    summary: Abuse.ch Suricata JA3 Fingerprint Ruleset
+    description: |
+      If you are running Suricata, you can use the SSLBL's Suricata JA3 FingerprintRuleset to detect and/or block malicious SSL connections in your network based on the JA3 fingerprint. Please note that your need Suricata 4.1.0 or newer in order to use the JA3 fingerprint ruleset.
+    vendor: Abuse.ch
+    license: CC0-1.0
+    url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.tar.gz
+    min-version: 4.1.0
+    checksum: false
+    replaces: sslbl/ja3-fingerprints
+
+  # Deprecated in favor of abuse.ch/sslbl-ja3
   sslbl/ja3-fingerprints:
     summary: Abuse.ch Suricata JA3 Fingerprint Ruleset
     description: |
@@ -102,6 +126,7 @@ sources:
     url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.tar.gz
     min-version: 4.1.0
     checksum: false
+    deprecated: Renamed to abuse.ch/sslbl-ja3
 
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
