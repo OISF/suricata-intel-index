@@ -152,6 +152,16 @@ sources:
     url: https://feodotracker.abuse.ch/downloads/feodotracker.tar.gz
     checksum: false
 
+  abuse.ch/urlhaus:
+    summary: Abuse.ch URLhaus Suricata Rules
+    description: |
+      URLhaus is a project from abuse.ch with the goal of sharing
+      malicious URLs that are being used for malware distribution.
+    vendor: abuse.ch
+    url: https://urlhaus.abuse.ch/downloads/urlhaus_suricata.tar.gz
+    license: CC0-1.0
+    checksum: false
+
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
     vendor: Etnetera a.s.
