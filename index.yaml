@@ -157,6 +157,19 @@ sources:
     url: https://sslbl.abuse.ch/blacklist/sslipblacklist.tar.gz
     checksum: false
 
+  abuse.ch/feodotracker:
+    summary: Abuse.ch Feodo Tracker Botnet C2 IP ruleset
+    description: |
+      The Suricata Botnet C2 IP Ruleset contains botnet C2s tracked by
+      Feodo Tracker and can be used for both, Suricata and Snort open
+      source IDS/IPS. If you are running Suricata or Snort, you can
+      use this ruleset to detect and/or block network connections
+      towards hostline servers (IP address:port combination).
+    vendor: Abuse.ch
+    license: CC0-1.0
+    url: https://feodotracker.abuse.ch/downloads/feodotracker.tar.gz
+    checksum: false
+
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
     vendor: Etnetera a.s.
