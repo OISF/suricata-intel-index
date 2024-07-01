@@ -330,6 +330,19 @@ sources:
     min-version: 5.0.0
     homepage: https://rules.ptsecurity.com
 
+  aleksibovellan/nmap:
+    summary: Suricata IDS/IPS Detection Rules Against NMAP Scans
+    description: |
+      These detection rules work by looking for specific NMAP
+      packet window sizes, flags, port numbers, and known NMAP
+      timing intervals.
+    homepage: https://github.com/aleksibovellan/opnsense-suricata-nmaps
+    vendor: aleksibovellan
+    min-version: 7.0.4
+    url: https://raw.githubusercontent.com/aleksibovellan/opnsense-suricata-nmaps/main/local.rules
+    checksum: false
+    license: MIT
+
 versions:
   suricata:
     recommended: 7.0.6
