@@ -319,6 +319,17 @@ sources:
     checksum: false
     license: CC-BY-SA-4.0
 
+  ptrules/open:
+    summary: Positive Technologies Open Ruleset
+    description: |
+      PT Rules, an open-source project focused on enhancing network security through proactive threat detection. As the PT Expert Security Center attack detection team, we are a dedicated group of cybersecurity experts committed to improve network security through open-source initiatives.
+    vendor: Positive Technologies
+    license: Custom
+    license-url: https://rules.ptsecurity.com/files/LICENSE.txt
+    url: https://rules.ptsecurity.com/files/ptopen.rules.tar.gz
+    min-version: 5.0.0
+    homepage: https://rules.ptsecurity.com
+
 versions:
   suricata:
     recommended: 7.0.6
