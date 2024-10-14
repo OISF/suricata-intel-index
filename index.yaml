@@ -97,7 +97,8 @@ sources:
     license: CC0-1.0
     url: https://sslbl.abuse.ch/blacklist/sslblacklist_tls_cert.tar.gz
     checksum: false
-    replaces: sslbl/ssl-fp-blacklist
+    replaces:
+      - sslbl/ssl-fp-blacklist
 
   # Deprecated in favor of abuse.ch/sslbl-blacklist.
   sslbl/ssl-fp-blacklist:
@@ -128,7 +129,8 @@ sources:
     url: https://sslbl.abuse.ch/blacklist/ja3_fingerprints.tar.gz
     min-version: 4.1.0
     checksum: false
-    replaces: sslbl/ja3-fingerprints
+    replaces:
+      - sslbl/ja3-fingerprints
 
   # Deprecated in favor of abuse.ch/sslbl-ja3
   sslbl/ja3-fingerprints:
