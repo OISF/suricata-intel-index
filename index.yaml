@@ -198,7 +198,7 @@ sources:
     vendor: tgreen
     license: GPLv3
     url: https://github.com/travisbgreen/hunting-rules/raw/master/hunting.rules.tar.gz
-    min-version: 4.1.0
+    min-version: 7.0.3
     checksum: false
 
   malsilo/win-malware:
