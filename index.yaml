@@ -347,6 +347,18 @@ sources:
     checksum: false
     license: MIT
 
+  ipfire/dbl:
+    summary: IPFire DBL
+    description: |
+      IPFire DBL is a comprehensive, community-maintained domain blocklist
+      that protects your network from malware, phishing, unwanted content, and emerging threats
+    homepage: https://www.ipfire.org/dbl/
+    vendor: IPFire
+    min-version: 6.0.0
+    url: https://dbl.ipfire.org/lists/suricata.tar.gz
+    checksum: false
+    license: CC BY-SA 4.0
+
 versions:
   suricata:
     recommended: 8.0.4
