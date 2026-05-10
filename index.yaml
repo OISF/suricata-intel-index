@@ -198,7 +198,8 @@ sources:
     utilizing community APIs like Phishstats and Openphish. Hourly updates with cumulative SID
     vendor: julioliraup
     license: GPL-3.0
-    url: https://github.com/julioliraup/Antiphishing
+    url: https://github.com/julioliraup/Antiphishing/archive/refs/tags/0.1.tar.gz
+    homepage: https://github.com/julioliraup/Antiphishing
     min-version: 4.0.0
     checksum: false
 
