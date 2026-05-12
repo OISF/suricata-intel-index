@@ -359,6 +359,18 @@ sources:
     checksum: false
     license: CC-BY-SA-4.0
 
+  julioliraup/antiphishing:
+    summary: Antiphishing for protection against phishing attacks
+    description: |
+      This ruleset is built using malicious URLs and domains involved in phishing attacks,
+      utilizing community APIs like Phishstats and Openphish. Hourly updates with cumulative SID
+    vendor: julioliraup
+    license: GPL-3.0
+    url: https://raw.githubusercontent.com/julioliraup/Antiphishing/refs/heads/main/antiphishing.tar.gz
+    homepage: https://github.com/julioliraup/Antiphishing
+    min-version: 4.0.0
+    checksum: false
+
 versions:
   suricata:
     recommended: 8.0.5
