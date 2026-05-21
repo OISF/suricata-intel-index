@@ -368,7 +368,7 @@ sources:
     license: GPL-3.0
     url: https://raw.githubusercontent.com/julioliraup/Antiphishing/refs/heads/main/antiphishing.tar.gz
     homepage: https://github.com/julioliraup/Antiphishing
-    min-version: 4.0.0
+    min-version: 7.0.0
     checksum: false
 
 versions:
