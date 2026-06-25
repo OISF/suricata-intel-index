@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Active Suricata ruleset sources and publisher links.">
+  <title>Suricata Rule Index</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#sources">Skip to rulesets</a>
+
+  <header class="topbar">
+    <div class="site-shell topbar-inner">
+      <a class="brand" href="./" aria-label="Suricata Rule Index">
+        <span class="brand-logo-wrap" aria-hidden="true">
+          <img
+            class="brand-logo brand-logo-light"
+            src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-horiz-R.png"
+            alt=""
+            width="1625"
+            height="402"
+            decoding="async"
+          >
+          <img
+            class="brand-logo brand-logo-dark"
+            src="assets/suricata-logo-dark.png"
+            alt=""
+            width="520"
+            height="129"
+            decoding="async"
+          >
+        </span>
+        <span class="brand-title">Rule Index</span>
+      </a>
+      <nav class="topnav" aria-label="External links">
+        <a href="https://github.com/OISF/suricata-intel-index" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://suricata.io/" target="_blank" rel="noopener noreferrer">Suricata</a>
+        <a href="https://github.com/OISF" target="_blank" rel="noopener noreferrer">OISF</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="site-shell intro">
+      <p class="eyebrow">Active ruleset sources</p>
+      <h1>Suricata Rule Index</h1>
+      <p class="lead">A concise list of active Suricata rulesets, their publishers, summaries, home pages, and subscription links where access is required.</p>
+    </section>
+
+    <section class="site-shell source-section" id="sources">
+      <div class="section-heading">
+        <div>
+          <h2>Active Rulesets</h2>
+          <p id="sourceSummary"><!-- SOURCE_SUMMARY --></p>
+        </div>
+      </div>
+
+      <div class="source-list" id="sourceList">
+<!-- SOURCE_CARDS -->
+      </div>
+
+      <!-- EMPTY_STATE -->
+    </section>
+  </main>
+
+  <footer class="site-shell footer">
+    <span>Generated from the active Suricata rule index data.</span>
+  </footer>
+</body>
+</html>
