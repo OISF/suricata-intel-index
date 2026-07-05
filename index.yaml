@@ -371,6 +371,20 @@ sources:
     min-version: 7.0.0
     checksum: false
 
+  the-hunters-ledger/open:
+    summary: The Hunters Ledger threat-intelligence detection feed
+    description: |
+      Community Suricata ruleset derived from original malware and open-directory
+      investigations published at the-hunters-ledger.com. Updated as new
+      campaigns are analyzed.
+    vendor: The Hunters Ledger
+    license: CC-BY-4.0
+    url: https://the-hunters-ledger.com/feeds/suricata/hunters-ledger.rules
+    homepage: https://the-hunters-ledger.com/
+    support-url: https://the-hunters-ledger.com/hunting-detections/
+    min-version: 8.0.0
+    checksum: false
+
 versions:
   suricata:
     recommended: 8.0.6
