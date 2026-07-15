@@ -1,19 +1,22 @@
 # Suricata Rule Index
 
-This repository contains the source index for Suricata rule and threat intelligence feeds plus a static website for GitHub Pages.
+This repository contains the Suricata rule index used by tools such as
+[Suricata-Update](https://github.com/OISF/suricata-update).
 
-`index.yaml` is the source of truth. The Pages workflow builds a deployable `_site` payload from `.site/`, writes active-only `index.yaml` and `index.json` files, and excludes sources marked `deprecated` or `obsolete` from the published site. The build renders all rulesets into `index.html`, so the site requires no client-side JavaScript.
+A nicer view of the index is available at https://rules.suricata.io.
 
-## Local preview
+## Submitting a Ruleset
 
-```sh
-python3 -m pip install PyYAML
-python3 .site/build-site.py --output _site
-python3 -m http.server 8000 --directory _site
-```
+Do you have a ruleset to submit? Please create a pull request or issue with the
+following information:
 
-Then open `http://localhost:8000/`.
+* A slug, ideally consisting of a vendor name and ruleset name. A single word is
+  OK as well.
+* A one line summary of your ruleset.
+* A longer description of your ruleset.
+* The license of your ruleset.
+* The URL to your ruleset.
 
-## Publishing
+If unsure on any of the above, open an issue and we'll help you out.
 
-The `Deploy GitHub Pages` workflow runs on pushes to `master` and can also be started manually from GitHub Actions. The workflow publishes the generated `_site` artifact through GitHub Pages.
+Also pease consider grabbing a SID allocation from https://sidallocation.org.

@@ -23,7 +23,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     color-scheme: dark;
     --bg: #111821;
     --bg-gradient: linear-gradient(180deg, rgba(28, 40, 52, 0.86), rgba(17, 24, 33, 0) 340px);
@@ -46,6 +46,30 @@
     --focus: rgba(40, 184, 168, 0.34);
     --shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111821;
+  --bg-gradient: linear-gradient(180deg, rgba(28, 40, 52, 0.86), rgba(17, 24, 33, 0) 340px);
+  --surface: #17212c;
+  --surface-soft: #202c38;
+  --text: #edf3f8;
+  --muted: #9caab7;
+  --muted-strong: #c1ccd6;
+  --border: #2a3946;
+  --border-strong: #40515f;
+  --accent: #28b8a8;
+  --accent-dark: #72d9cf;
+  --blue: #8bb3ff;
+  --amber: #f3bf5f;
+  --source-id-bg: #14362f;
+  --source-id-border: #1c5e52;
+  --source-id-text: #91e3d7;
+  --auth-bg: #3a2b13;
+  --topbar-bg: rgba(18, 27, 37, 0.94);
+  --focus: rgba(40, 184, 168, 0.34);
+  --shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
 }
 
 * {
@@ -150,13 +174,21 @@ button {
 }
 
 @media (prefers-color-scheme: dark) {
-  .brand-logo-light {
+  :root:not([data-theme]) .brand-logo-light {
     display: none;
   }
 
-  .brand-logo-dark {
+  :root:not([data-theme]) .brand-logo-dark {
     display: block;
   }
+}
+
+:root[data-theme="dark"] .brand-logo-light {
+  display: none;
+}
+
+:root[data-theme="dark"] .brand-logo-dark {
+  display: block;
 }
 
 .brand-title {
@@ -177,6 +209,42 @@ button {
 
 .topnav a {
   color: var(--muted-strong);
+}
+
+.theme-toggle {
+  display: none;
+  width: 2rem;
+  min-height: 2rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted-strong);
+  padding: 0;
+  cursor: pointer;
+}
+
+.has-js .theme-toggle {
+  display: inline-flex;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.theme-toggle-icon {
+  width: 0.78rem;
+  height: 0.78rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: inset -0.24rem -0.18rem 0 rgba(255, 255, 255, 0.78);
+}
+
+:root[data-theme="dark"] .theme-toggle-icon {
+  background: var(--amber);
+  box-shadow: 0 0 0 0.16rem rgba(243, 191, 95, 0.16);
 }
 
 .intro {

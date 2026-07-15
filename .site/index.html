@@ -6,6 +6,20 @@
   <meta name="description" content="Active Suricata ruleset sources and publisher links.">
   <title>Suricata Rule Index</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    (() => {
+      const key = "suricata-rule-index-theme";
+      let saved = null;
+      try {
+        saved = localStorage.getItem(key);
+      } catch {
+        // Use the system preference when storage is unavailable.
+      }
+      const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = saved || (systemDark ? "dark" : "light");
+      document.documentElement.classList.add("has-js");
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -38,6 +52,9 @@
         <a href="https://github.com/OISF/suricata-intel-index" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://suricata.io/" target="_blank" rel="noopener noreferrer">Suricata</a>
         <a href="https://github.com/OISF" target="_blank" rel="noopener noreferrer">OISF</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+        </button>
       </nav>
     </div>
   </header>
@@ -68,5 +85,7 @@
   <footer class="site-shell footer">
     <span>Generated from the active Suricata rule index data.</span>
   </footer>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>
