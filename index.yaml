@@ -388,5 +388,4 @@ sources:
 versions:
   suricata:
     recommended: 8.0.6
-    "7.0": 7.0.17
     "8.0": 8.0.6
