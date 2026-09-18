@@ -394,7 +394,7 @@ sources:
     homepage: https://rulezet.org/
     vendor: Rulezet
     min-version: 8.0.0
-    url: https://rulezet.org/rule/rules_list?rule_type=suricata
+    url: https://rulezet.org/rule/feed/suricata.rules
     checksum: false
     license: Various
 
