@@ -384,6 +384,20 @@ sources:
     support-url: https://the-hunters-ledger.com/hunting-detections/
     min-version: 8.0.0
     checksum: false
+    
+  rulezet/suricata:
+    summary: Rulezet Suricata Rules
+    description: |
+      Community-maintained Suricata detection rules distributed by Rulezet,
+      an open-source platform for sharing, validating, and managing detection
+      rules from security researchers and detection engineering communities.
+    homepage: https://rulezet.org/
+    vendor: Rulezet
+    min-version: 8.0.0
+    url: https://rulezet.org/rule/rules_list?rule_type=suricata
+    checksum: false
+    license: Various
+
 
 versions:
   suricata:
