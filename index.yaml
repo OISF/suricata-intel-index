@@ -385,6 +385,19 @@ sources:
     min-version: 8.0.0
     checksum: false
 
+  echap/stalkerware:
+    summary: Echap ruleset to identify stalkerware
+    description: |
+      Indicators of compromise (IOC) for Stalkerware and Watchware
+      applications for Android and iOS from the Echap non-profit organisation.
+    vendor: Echap
+    license: CC-BY-4.0
+    url: https://the-hunters-ledger.com/feeds/suricata/hunters-ledger.rules
+    url: https://github.com/AssoEchap/stalkerware-indicators/blob/master/generated/suricata.rules
+    support-url: https://github.com/AssoEchap/stalkerware-indicators/issues
+    min-version: 4.0.0
+    checksum: false
+
 versions:
   suricata:
     recommended: 8.0.7
