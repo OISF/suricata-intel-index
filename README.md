@@ -19,4 +19,4 @@ following information:
 
 If unsure on any of the above, open an issue and we'll help you out.
 
-Also pease consider grabbing a SID allocation from https://sidallocation.org.
+Also please consider grabbing a SID allocation from https://sidallocation.org.
