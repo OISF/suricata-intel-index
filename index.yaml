@@ -183,6 +183,23 @@ sources:
     license: CC0-1.0
     checksum: false
 
+  abuse.ch/threatfox:
+    summary: Abuse.ch ThreatFox Suricata Rules
+    description: |
+      ThreatFox is a project from abuse.ch for sharing indicators of
+      compromise (IOCs) associated with malware. This ruleset detects
+      network traffic matching these indicators.
+    vendor: abuse.ch
+    license: Custom
+    license-url: https://abuse.ch/terms-of-use/
+    homepage: https://threatfox.abuse.ch/
+    url: https://threatfox-api.abuse.ch/v2/files/exports/%(auth_key)s/threatfox_suricata.tar.gz
+    subscribe-url: https://auth.abuse.ch/
+    parameters:
+      auth_key:
+        prompt: ThreatFox Auth-Key
+    checksum: false
+
   etnetera/aggressive:
     summary: Etnetera aggressive IP blacklist
     vendor: Etnetera a.s.
