@@ -397,6 +397,21 @@ sources:
     min-version: 8.0.0
     checksum: false
 
+  offseq/mirage:
+    summary: OffSeq Mirage honeypot attacker IPs, paths and user-agents
+    description: |
+      Daily datasets from OffSeq's Mirage honeypot sensor fleet: attacker
+      IPv4 addresses seen by at least 3 sensors in 2 networks, and the
+      request paths and user-agents they used. Alert-only, one alert per
+      source per hour.
+    vendor: OffSeq
+    license: CC-BY-4.0
+    url: https://feeds.offseq.com/mirage-feed/latest/suricata/mirage.tar.gz
+    homepage: https://feeds.offseq.com
+    support-url: https://github.com/offseq/mirage-feed/issues
+    min-version: 8.0.0
+    checksum: false
+
 versions:
   suricata:
     recommended: 8.0.8
