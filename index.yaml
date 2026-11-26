@@ -412,6 +412,20 @@ sources:
     min-version: 8.0.0
     checksum: false
 
+  pb-22/open:
+    summary: Community Suricata rules backed by packet captures and reproducible validation
+    description: |
+      Independently maintained rules for network threat detection and hunting.
+      The project provides packet captures, documentation, and reproducible
+      validation for the published rules.
+    vendor: Pb-22
+    license: BSD-3-Clause
+    url: https://raw.githubusercontent.com/Pb-22/Network_Detections/main/feed/suricata/pb22.rules
+    homepage: https://github.com/Pb-22/Network_Detections/tree/main/feed
+    support-url: https://github.com/Pb-22/Network_Detections/issues
+    min-version: 8.0.8
+    checksum: false
+
 versions:
   suricata:
     recommended: 8.0.8
